@@ -1,5 +1,6 @@
 to list the group and user with their ID us -n with ls
 to list with / added to directories use -p to seperate values with commas usr -m
+to list depending on the time of creating/modification ls -t
 
 sort -d to sort only blanks and alphanumericals, thus, ignoring . ..
 
@@ -20,3 +21,4 @@ for wildcard check: https://linuxcommand.org/lc3_lts0020.php
 for a file class that start with string 'blabla':
 0 string blabla myFileClass data
 !:mime myFileClass
+README
