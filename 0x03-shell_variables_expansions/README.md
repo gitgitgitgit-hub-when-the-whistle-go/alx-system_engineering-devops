@@ -20,3 +20,13 @@ for every operator in arithmetic expressions check this: https://www.gnu.org/sof
 Global variable are available for all the shells while local variables are available only in the current shell
 
 Variables more in detail: https://tldp.org/LDP/Bash-Beginners-Guide/html/sect_03_02.html
+
+to declare a global variable we use export. to declare a local one we use declare or set, if those are called with no vars it will print the actual vairables.
+
+we can create alias for ls like: $ alias l=ls # to print all effective aliases we use $ alias -p # to remove an alias we use unalias
+
+Shell initialization files: https://tldp.org/LDP/Bash-Beginners-Guide/html/sect_03_01.html
+
+we run our scripts in a sub shell and thus all our global variable are not affected
+
+one way of using transalte: tr 'A-Za-z' 'N-ZA-Mn-za-m'
