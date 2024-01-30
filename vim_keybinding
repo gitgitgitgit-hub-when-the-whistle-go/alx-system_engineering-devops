@@ -1,0 +1,45 @@
+i: insert mode (writes before cursor) I: at the beginning o the like// a: insert mode (after the cursor) A: to append at the end of the line // <ESC>: command mode
+
+o: insert a new line after the current line // O: before the current line
+
+>> to add an indent or << to remove
+
+vim file: to open file // vim -r file: to open after crash and recover
+
+:x == :wq save and quit // :q or :q! if we want to discard changes
+
+j:left l:right k:down l:up
+0: to the beginning of the line or gg // $:the end or G
+w: move one word forward // b: one word backward // ^ to go to he first word (ignoring ident) // W forward and ignore punctuationi
+:N move to the N line // NG alternativelly // :$ or G for the end of file
+{ and } to move between blocks of code
+f or t char to jumpt to the first char in the line, go to next one with ;
+% take us to the other bracket or parentheses. d% to delete anything between
+
+
+C-f one page C-b // C-d halfpage C-u
+zz o center the page base on the position of my cursor
+
+u to undo C-r to redo (an action is defined after entering the insert mode and leaving it)
+
+dd delete entire line
+dw or dNw delete a number of words // alternativelly we can change (delete + insertmode after) with cw // r to replace one char and R to enter REPLACE mode
+D delete the remainder of the line from the cursor
+x and Nx for deleting char or N char
+
+yy Nyy for yanking the current line
+yw forone word
+p paste P paste in line above cursor, note that what is copied can outlast vim closing and and the pc reboots.
+dd is used for deleting but also cutting
+
+/string search forward for string ?string search backward
+n next // N previous occurence
+
+we can use v and V to see what we selected (called the visual mode)
+
+vimrc:
+set number
+set backspace=indent,eol,start
+
+search vim --version to know where is the init file
+
