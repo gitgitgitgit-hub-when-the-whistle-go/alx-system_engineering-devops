@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# read 'etc and retrieve user user id path
+i=0
+while [ $i -ne 1000 ]
+do
+	cut -d ':' -f 1,3,6 /etc/passwd
+	i=1000
+done

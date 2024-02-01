@@ -66,3 +66,16 @@ to itterate accross all files and folders:
 for file in * ; then
 
 task 9
+always put the variablae inside "$var"
+"$var" == "$var2" for string comparaison
+alternatively there is if [ -f,c,... $file ] to test regular files etc
+more about this in: https://tldp.org/LDP/abs/html/fto.html
+
+task 10
+when needing two conditions use if [[ cond1 && cond2 ]] with double brackets
+https://www.pluralsight.com/resources/blog/cloud/conditions-in-bash-scripting-if-statements  C-f &&
+we can also use arithmetic expression in comparaison. if ((var1 - var2)); then .....
+
+task 11
+
+
