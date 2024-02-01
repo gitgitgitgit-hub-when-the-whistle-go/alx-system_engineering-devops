@@ -1,8 +1,6 @@
 #!/usr/bin/env bash
 # read 'etc and retrieve user user id path
-i=0
 while read -r line
 do
 	echo "$line" | cut -d ':' -f 1,3,6
-	i=1000
 done < "/etc/passwd"
