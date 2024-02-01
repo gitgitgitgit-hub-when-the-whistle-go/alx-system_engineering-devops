@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# -p is for displaying pid/programname and -l for listening
+netstat -lp
