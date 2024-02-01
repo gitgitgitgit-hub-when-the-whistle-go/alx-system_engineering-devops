@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# listeneing to new connections
+nc -l localhost 98

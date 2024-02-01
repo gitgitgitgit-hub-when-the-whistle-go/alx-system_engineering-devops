@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# active ipv4 on this machine
+ifconfig | grep "inet " | awk '{print $2}'
