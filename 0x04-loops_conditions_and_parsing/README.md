@@ -89,3 +89,10 @@ note that the redirection is done at the done statement
 we must use read with the -r flag (thanks to shellcheck), because the possibility of the file containing '\' and we don't want it to escape character
 manual of read for bash: https://linuxcommand.org/lc3_man_pages/readh.html
 this task could be done without reading line by line and a loop. Only cut ..... is needed
+
+task 12
+awk is a scripting language used for manipulating data
+it scan line per line looks for patterns or split into fields and perfom operaions on matched lines
+awk option 'pattern {action}' file
+for more about awk: https://www.geeksforgeeks.org/awk-command-unixlinux-examples/
+
