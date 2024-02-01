@@ -58,3 +58,11 @@ case var in
 		;;
 esac
 
+task 7
+nested loops
+
+task 8
+to itterate accross all files and folders:
+for file in * ; then
+
+task 9

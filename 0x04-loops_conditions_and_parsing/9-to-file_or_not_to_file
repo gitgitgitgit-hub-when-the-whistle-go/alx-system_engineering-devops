@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+# type of the file
+test=$(file 'school' | cut -d ':' -f 2)
+if [ "$test" ==  " cannot open \`school' (No such file or directory)" ]; then
+	echo "school file does not exist"
+	exit 0
+else
+	echo "school file exists"
+fi
+if [ "$test" == " empty" ]; then
+	echo "school file is empty"
+else
+	echo "school file is not empty"
+fi
+if [ "$test" != " directory" ]; then
+	echo "school is a regular file"
+fi
