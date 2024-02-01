@@ -91,8 +91,16 @@ manual of read for bash: https://linuxcommand.org/lc3_man_pages/readh.html
 this task could be done without reading line by line and a loop. Only cut ..... is needed
 
 task 12
+/etc/passwd contains 
+user : password or not : id : group id : group : home direcory : shell path
+/etc/shadow contains
+password in hashed mode
+
+task13
 awk is a scripting language used for manipulating data
 it scan line per line looks for patterns or split into fields and perfom operaions on matched lines
 awk option 'pattern {action}' file
 for more about awk: https://www.geeksforgeeks.org/awk-command-unixlinux-examples/
 
+task 14
+always remenber to sort before uniq lol
