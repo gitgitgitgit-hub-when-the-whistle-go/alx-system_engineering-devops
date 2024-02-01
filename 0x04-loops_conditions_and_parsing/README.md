@@ -87,4 +87,5 @@ do
 done < $filePath
 note that the redirection is done at the done statement
 we must use read with the -r flag (thanks to shellcheck), because the possibility of the file containing '\' and we don't want it to escape character
+manual of read for bash: https://linuxcommand.org/lc3_man_pages/readh.html
 this task could be done without reading line by line and a loop. Only cut ..... is needed
