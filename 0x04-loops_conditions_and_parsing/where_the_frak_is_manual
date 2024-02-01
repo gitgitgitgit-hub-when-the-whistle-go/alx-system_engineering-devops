@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# looking for the manual of read xD
+for i in {3..10}; do
+	man "$i" read
+done
+# found one at 2 but it's for C (-_-)
+# no manual for bash ??? wierd

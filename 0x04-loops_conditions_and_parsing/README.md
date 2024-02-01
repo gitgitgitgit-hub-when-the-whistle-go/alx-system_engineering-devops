@@ -77,5 +77,14 @@ https://www.pluralsight.com/resources/blog/cloud/conditions-in-bash-scripting-if
 we can also use arithmetic expression in comparaison. if ((var1 - var2)); then .....
 
 task 11
-
-
+I cheated on this one xD but it works lel
+read must be learned
+Ok I felt guilty so I checked read:
+To read line per line we will use the loop while and a redirection
+while read -r line
+do
+	# the line is stored in $line
+done < $filePath
+note that the redirection is done at the done statement
+we must use read with the -r flag (thanks to shellcheck), because the possibility of the file containing '\' and we don't want it to escape character
+this task could be done without reading line by line and a loop. Only cut ..... is needed
