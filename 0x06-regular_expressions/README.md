@@ -1,3 +1,7 @@
+very good youtube tutorial: https://www.youtube.com/watch?v=rhzKDrUiJVk
+w3s tutorial: https://intranet.alxswe.com/rltoken/VOQCF4_WTOCyQ92h0dGPyA
+https://rubular.com/
+
 search the text for pattern in an advanced way
 they start with / and ends with / and ends with a flag. example: /regexp/g
 g is global means seach in the entire file and i is for case sensitiveness
