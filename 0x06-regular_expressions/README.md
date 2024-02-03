@@ -63,3 +63,9 @@ now with an american number  (123) 456-1235
 
 in this $1 is 123 ,  $2 456 and $3 1235
 we can retrive the fields with parentheses.
+
+now we have fields this way "[field1] [field2] [field3] [field4] [field5]"
+/(?<=\[)(.*?)(?=\])/ returns field per field
+but if we remove ? in (.*?)
+it retruns field1] [field2] [field3] [field4] [field5
+
